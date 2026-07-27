@@ -14,15 +14,6 @@ A React Native Student Learning Management System (LMS) mobile application built
 - **REST API Integration** — Structured API layer ready for NSBM backend (mock data included)
 - **Responsive Layouts** — Adapts to different screen sizes using custom hooks
 
-## Theme
-
-NSBM-inspired color palette:
-- Primary Green: `#006B3F`
-- Dark Green: `#004D2E`
-- Accent Gold: `#FFB300`
-- White & light gray backgrounds
-
-
 ### Demo Login
 
 Use any university email and a password with 4+ characters:
@@ -30,20 +21,6 @@ Use any university email and a password with 4+ characters:
 ```
 Email:    student@students.nsbm.ac.lk
 Password: demo
-```
-
-
-
-## Connecting to Real API
-
-Edit `src/config/api.ts`:
-
-```typescript
-export const API_CONFIG = {
-  BASE_URL: 'https://api.nsbm.lk/unilearn/v1',
-  USE_MOCK: false,  // Set to false for production
-  TIMEOUT: 15000,
-};
 ```
 
 ## Screens
@@ -57,6 +34,13 @@ export const API_CONFIG = {
 | Assignments | Filterable assignment tracker |
 | Exam Schedule | Full exam timetable |
 | Profile | Account & logout |
+
+<img width="250" height="500" alt="Screenshot_20260727_112237" src="https://github.com/user-attachments/assets/22d76570-64a1-4dd1-af52-358b388c7527" />
+<img width="250" height="500" alt="Screenshot_20260727_112800" src="https://github.com/user-attachments/assets/ed845e0c-312e-4486-a327-9a6789800677" />
+<img width="250" height="500" alt="Screenshot_20260727_112740" src="https://github.com/user-attachments/assets/0a401f4c-2973-44f5-8e44-1f4102b6e8dc" />
+<img width="250" height="500" alt="Screenshot_20260727_112707" src="https://github.com/user-attachments/assets/00bb30a3-2a9a-4c6e-8bb7-60f4d949b73a" />
+<img width="250" height="500" alt="Screenshot_20260727_112820" src="https://github.com/user-attachments/assets/61cf18e7-734d-4238-862e-47f7664f15d6" />
+
 
 ## Tech Stack
 
